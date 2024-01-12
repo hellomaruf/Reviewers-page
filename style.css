@@ -6,3 +6,88 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+/* right side */
+.reviewers-page {
+  width: 100%;
+  height: 100vh;
+  background-color: #fafaf9;
+  display: flex;
+  align-items: center;
+}
+.reviewers-page .reviewers-page-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left-testimonial {
+  width: 48%;
+}
+.right-reviewers {
+  width: 48%;
+}
+.google-review {
+  width: 380px;
+  padding: 30px 20px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.meta-review {
+  width: 380px;
+  padding: 30px 20px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.review-imgs {
+  width: 100%;
+}
+.google img {
+  width: 100px;
+}
+
+.meta img {
+  width: 100px;
+}
+.review-imgs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* left side */
+.left-testimonial .left-star {
+  padding: 8px;
+  border-radius: 20px;
+  background-color: rgb(188, 140, 9);
+}
+.left-testimonial h1 {
+  font-size: 2.25rem;
+  padding: 5px 0;
+}
+.left-testimonial p {
+  font-size: 1rem;
+  color: #52525a;
+  padding-bottom: 40px;
+}
+.left-testimonial li {
+  font-size: 0.875rem;
+  color: #52525a;
+  list-style: none;
+}
+.left-testimonial .done {
+  padding-right: 10px;
+}
+.review-text h4 {
+  padding: 5px 0;
+}
+.review-text p {
+  color: #52525a;
+}
+.google-review {
+  position: relative;
+  left: 190px;
+  bottom: 25px;
+}
